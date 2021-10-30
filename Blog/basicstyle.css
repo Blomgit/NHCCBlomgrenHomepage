@@ -1,0 +1,93 @@
+		body{
+			background-image: url(https://i.ibb.co/G3TdB3B/1512364113085.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		header{
+			background-color: black;
+			color: white;
+			text-align: center;
+			overflow:hidden;
+			margin:0;
+			padding:0;
+			top:0;
+			position:-webkit- sticky;
+			position: sticky;
+			z-index: 1;
+		}
+		h1{
+			padding: 3%;
+			font-family: 'Abril-Fatface', serif;
+		}
+		ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color:black;
+		}
+		li{
+			align:center;
+			float:left;
+		}
+		li a{
+			display:block;
+			color:white;
+			text-align:center;
+			padding:14px 16px;
+			text-decoration: none;
+		}
+		li a:hover{
+			background-color:#333;
+		}
+		article{
+			padding: 2%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-top: 2%;
+			background-color: white;
+			opacity: 0.7;
+			z-index: -1;
+		}
+		table{
+			
+		}
+		h2{
+			font-family: "Lato";font-size:2.5em;
+		}
+		p{
+			color:black;
+			opacity:100%;
+			font-family: "Arial Regular", sans-serif;
+		}
+		.fa{
+			padding:20px;
+			font-size:30px;
+			width:50px;
+			text-align:center;
+			text-decoration:none;
+			margin: 5px 2px;
+			color:white;
+		}
+		.fa:hover{
+			background-color:rgb(175, 175, 175);
+		}
+		.fa-facebook{
+			background:#3B5998;
+		}
+		.fa-twitter{
+			background: #55ACEE;
+		}
+		.fa-youtube{
+			background: #bb0000;
+		}
+		.fa-instagram{
+			background: #ea4c89;
+		}
+		footer{
+			background:black;
+		}
+		.foottext{
+			color:white;
+			padding: 2%;
+		}

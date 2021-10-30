@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<!--Google Fonts import-->
+		<!--Abril Fatface-->
+		<link href="https://fonts.googleapis.com/css?family=Abril Fatface" rel="stylesheet">
+		<!--Lato Black 900-->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+	<!--site title displayed on tab-->
+	<title> Ethan's Blog</title>
+	
+	<!--additional browser compatability-->
+	<!--[if lt IE 9]>
+		<script src=https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+	
+	<!--social button ico's-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!--outline CSS formatting-->
+	<link href="basicstyle.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+		<h1>Ethan's Webpage Programming Blog</h1>
+		<nav>
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href= "Articles.html">Articles</a></li>
+				<li><a href= "Contact.html">Contact</a></li>
+				<li><a href= "Work.html">Work</a></li>
+				<li><a href= "page5.html">Page5</a></li>
+			</ul>
+		</nav>
+			
+	</header>
+	
+	<article>
+		<h2>Compatibility Across Browser Verisons</h2>
+		<p><small><time datetime="2021-09-29 12:00">September 29, 12:00 PM</time> | Ethan Blomgren</small></p>
+		
+		<p>
+			This was my first time seeing conditional comments in any language. It is a weird way to implement an if/then, 
+			but I understood what was happening right away. A JavaScript element is run to sort of trick early,
+			non-updated versions of IE to make sense of rich HTML5 features. While this may not be entirely necessary, 
+			especially if your site does not make use of rich HTML5 features,
+			it may be wise to include as best practice rather than having to remember to do it later if rich HTML5 features are added later.
+		</p>
+	</article>
+
+	<article>
+		<h2>Z-Value</h2>
+		<p><small><time datetime="2021-10-04 12:00">October 4, 12:00 PM</time> | Ethan Blomgren</small></p>
+
+		<p>
+			When I was working on the layout, I had problems with pushing divs forward and backwards as they overlapped. 
+			I had applied opacity to the article tag and the sticky attribute to the header.
+			After asking for help in the e-mail, I learned that it has to do with a quirky property called z-index.
+			When a select few properties like opacity are altered, it changes the z-index of the element. The z-index can be overridden using the z-index value; integers only.
+			Z-index is only accounted for when an element's position value has been set to something non-static. 
+			One thing I could not work out was getting the padding and margin around the h1 tag to shrink as the header went from static to sticky.
+		</p>
+	</article>
+
+	<article>	
+		<h2>Google Fonts</h2>   
+		<p><small><time datetime="2021-10-02 12:00">October 2</time> | Ethan Blomgren</small></p>
+		<p>Google has free, professional looking fonts you can load into your CSS from their online font library.
+		Absolute purists consider using nonstandard display fonts to be a source of CSS web bloat, so their use should be restrained to a healthy amount.
+		These fonts can be loaded into an html document by linking to them in the head as stylesheets and referring to them using the font family parameters.</p>
+	</article>
+
+	<article>
+		<h2>Social Media Buttons</h2>
+		<p><small><time datetime="2021-10-06 12:00">October 6</time> | Ethan Blomgren</small></p>
+		<p>For extra pizzazz, social media buttons could be built with javascript as buttons and have short animations, but to make life easier, it can be built with CSS.
+			You can import a library of icons as I have done, or host your own as png, ico, or svg. Mine are just dummy links,
+			but the href section would just have to be changed to actual URLs. Many websites like blogs or personal portfolios include social buttons like these.
+			I decided to make a hover state like those on my menu list buttons.</p>
+	</article>
+
+	<article>
+		<h2>Images</h2>
+		<p><small><time datetime="2021-10-07 12:00">October 7</time> | Ethan Blomgren</small></p>
+		<p>Images are relatively simple to manage in HTML. They can either be referenced to within the file system of the website or loaded in from a link on the web.
+			I decided to pick a background image from my computer, a still from the movie <em>Porco Rosso</em>, and upload it to a free image hosting site.
+			Using links only works with the raw link to the file itself, as in, a URL ending with an image file extension.
+			There are a host of properties in CSS which can alter the way images can be rendered to the screen. WEBP is a great lossy image
+			format for web because the compression rate is high while retaining decent fidelity,
+			but it is not supported in Safari on Mac devices older than Big Sur because of feuding between Apple and Google.
+			In my quest to learn about this topic, I stumbled upon 
+			<a href="https://discussions.apple.com/thread/253018077">this situationally humorous thread</a> on Apple's support forum.
+			It seems like the sort of interaction a linux user would make up to mock Mac users.
+		</p>
+	</article>
+	<footer>
+		<p class=foottext>© Ethan Blomgren 2021.</p>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-youtube"></a>
+	</footer>
+</body>
+</html>
